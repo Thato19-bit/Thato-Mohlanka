@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rare Destinations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        
+        <h1>Explore Rare Destinations</h1>
+        <img src="loo.png" alt="loo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <input type="text" placeholder="search destinations..." id="search bar"><button type="submit">search</button>   
+            </ul>
+        </nav>
+    </header>
+
+    <section class="destinations-grid">
+        
+        <div class="destination">
+            <img src="images/pamukkale.jpeg" alt="Pamukkale, Turkey">
+            <h3>Pamukkale, Turkey</h3>
+            <p>Known for its natural hot springs and stunning white terraces, Pamukkale is a beautiful wonder in Turkey.</p>
+            <video controls>
+                <source src="videos/pamukkale.mp4" type="video/mp4">
+                
+            </video>
+            <a href="https://en.wikipedia.org/wiki/Pamukkale" target="_blank">More Info</a>
+        </div>
+
+        <div class="destination">
+            <img src="images/lofoten.jpeg" alt="Lofoten ">
+            <h3>Lofoten Islands, Norway</h3>
+            <p>Famous for its dramatic mountains and northern lights, the Lofoten Islands offer breathtaking views.</p>
+            <video controls>
+                <source src="videos/lofoten.mp4" type="video/mp4">
+                
+            </video>
+            <a href="https://en.wikipedia.org/wiki/Lofoten" target="_blank">More Info</a>
+        </div>
+
+        <div class="destination">
+            <img src="images/Marble Caves, Chile.jpeg" alt="Marble Caves, Chile">
+            <h3>Marble Caves, Chile</h3>
+            <p>These surreal caves in Patagonia are carved by nature and feature incredible turquoise hues.</p>
+            <video controls>
+                <source src="videos/marble.mp4" type="video/mp4">
+                
+            </video>
+            <a href="https://en.wikipedia.org/wiki/Marble_Caves" target="_blank">More Info</a>
+        </div>
+
+        <div class="destination">
+            <img src="images/Aogashima Island, Japan.jpeg" alt="Aogashima Island, Japan">
+            <h3>Aogashima Island, Japan</h3>
+            <p>This remote volcanic island is a hidden gem offering an adventure like no other.</p>
+            <video controls>
+                <source src="videos/aogashima.mp4" type="video/mp4">
+               
+            </video>
+            <a href="https://en.wikipedia.org/wiki/Aogashima" target="_blank">More Info</a>
+        </div>
+
+        <div class="destination">
+            <img src="images/Meteora, Greece.jpeg" alt="Meteora, Greece">
+            <h3>Meteora, Greece</h3>
+            <p>Monasteries perched on top of sandstone pillars make Meteora a unique cultural and natural marvel.</p>
+            <video controls>
+                <source src="videos/meteora.mp4" type="video/mp4">
+                
+            </video>
+            <a href="https://en.wikipedia.org/wiki/Meteora" target="_blank">More Info</a>
+        </div>
+
+        <div class="destination">
+            <img src="images/lake.jpeg" alt="Lake ">
+            <h3>Lake Hillier, Australia</h3>
+            <p>This striking pink lake is one of the natural wonders of the world, and it’s safe to swim in its salty waters.</p>
+            <video controls>
+                <source src="videos/lake.mp4" type="video/mp4">
+               
+            </video>
+            <a href="https://en.wikipedia.org/wiki/Lake_Hillier" target="_blank">More Info</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Unique Travel Destinations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
